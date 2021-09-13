@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Bai-1")]
+[assembly: AssemblyTitle("bTaskeeSimulation")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Bai-1")]
+[assembly: AssemblyProduct("bTaskeeSimulation")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a4ae9f88-9d86-445a-b72b-f7a962fea1d1")]
+[assembly: Guid("14e7c218-14c8-4506-8d86-8278e0bf4ecb")]
 
 // Version information for an assembly consists of the following four values:
 //
