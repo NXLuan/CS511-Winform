@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8C773F36-8290-424C-8D66-B02520AE362E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Practice</RootNamespace>
+    <AssemblyName>Practice</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TH1\bTaskeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TH1\bTaskeeForm.Designer.cs">
+      <DependentUpon>bTaskeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TH1\DataService.cs" />
+    <Compile Include="TH1\Model\OrderDetail.cs" />
+    <Compile Include="TH1\Model\ServiceModel.cs" />
+    <Compile Include="TH1\Model\User.cs" />
+    <Compile Include="TH1\PageForm\CartPageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TH1\PageForm\CartPageForm.Designer.cs">
+      <DependentUpon>CartPageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TH1\PageForm\HomePageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TH1\PageForm\HomePageForm.Designer.cs">
+      <DependentUpon>HomePageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TH1\PageForm\ProfilePageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TH1\PageForm\ProfilePageForm.Designer.cs">
+      <DependentUpon>ProfilePageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TH1\UserControlCustom\BottomImageButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TH1\UserControlCustom\BottomImageButton.Designer.cs">
+      <DependentUpon>BottomImageButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TH1\UserControlCustom\HouseworkButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TH1\UserControlCustom\HouseworkButton.Designer.cs">
+      <DependentUpon>HouseworkButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TH1\UserControlCustom\InputCustom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TH1\UserControlCustom\InputCustom.Designer.cs">
+      <DependentUpon>InputCustom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TH1\UserControlCustom\OrderItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TH1\UserControlCustom\OrderItem.Designer.cs">
+      <DependentUpon>OrderItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TH1\UserControlCustom\TotalServiceBadge.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TH1\UserControlCustom\TotalServiceBadge.Designer.cs">
+      <DependentUpon>TotalServiceBadge.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="TH1\bTaskeeForm.resx">
+      <DependentUpon>bTaskeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TH1\PageForm\CartPageForm.resx">
+      <DependentUpon>CartPageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TH1\PageForm\HomePageForm.resx">
+      <DependentUpon>HomePageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TH1\PageForm\ProfilePageForm.resx">
+      <DependentUpon>ProfilePageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TH1\UserControlCustom\BottomImageButton.resx">
+      <DependentUpon>BottomImageButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TH1\UserControlCustom\HouseworkButton.resx">
+      <DependentUpon>HouseworkButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TH1\UserControlCustom\InputCustom.resx">
+      <DependentUpon>InputCustom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TH1\UserControlCustom\OrderItem.resx">
+      <DependentUpon>OrderItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TH1\UserControlCustom\TotalServiceBadge.resx">
+      <DependentUpon>TotalServiceBadge.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TH1\data.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
