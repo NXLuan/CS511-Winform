@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("bTaskeeSimulation")]
+[assembly: AssemblyTitle("Practice")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("bTaskeeSimulation")]
+[assembly: AssemblyProduct("Practice")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("14e7c218-14c8-4506-8d86-8278e0bf4ecb")]
+[assembly: Guid("8c773f36-8290-424c-8d66-b02520ae362e")]
 
 // Version information for an assembly consists of the following four values:
 //
