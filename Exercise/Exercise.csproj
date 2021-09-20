@@ -70,6 +70,12 @@
     <Compile Include="Buoi2\HouseworkButton.Designer.cs">
       <DependentUpon>HouseworkButton.cs</DependentUpon>
     </Compile>
+    <Compile Include="Buoi3\Hotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buoi3\Hotel.Designer.cs">
+      <DependentUpon>Hotel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Buoi1\Form1.resx">
@@ -84,6 +90,9 @@
     <EmbeddedResource Include="Buoi2\HouseworkButton.resx">
       <DependentUpon>HouseworkButton.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Buoi3\Hotel.resx">
+      <DependentUpon>Hotel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -92,6 +101,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -106,6 +116,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Buoi3\img\motel.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
