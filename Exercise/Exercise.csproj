@@ -76,6 +76,31 @@
     <Compile Include="Buoi3\Hotel.Designer.cs">
       <DependentUpon>Hotel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Buoi5\ExamForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buoi5\ExamForm.Designer.cs">
+      <DependentUpon>ExamForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buoi5\Model.cs" />
+    <Compile Include="Buoi5\ResultControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Buoi5\ResultControl.Designer.cs">
+      <DependentUpon>ResultControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buoi5\ResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buoi5\ResultForm.Designer.cs">
+      <DependentUpon>ResultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buoi6\Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buoi6\Game.Designer.cs">
+      <DependentUpon>Game.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Buoi1\Form1.resx">
@@ -92,6 +117,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Buoi3\Hotel.resx">
       <DependentUpon>Hotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buoi5\ExamForm.resx">
+      <DependentUpon>ExamForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buoi5\ResultControl.resx">
+      <DependentUpon>ResultControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buoi5\ResultForm.resx">
+      <DependentUpon>ResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buoi6\Game.resx">
+      <DependentUpon>Game.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -118,6 +155,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Buoi3\img\motel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Buoi5\Image\True.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Buoi5\Image\False.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
