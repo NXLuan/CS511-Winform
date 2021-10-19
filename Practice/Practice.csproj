@@ -113,6 +113,68 @@
     <Compile Include="TH1\UserControlCustom\TotalServiceBadge.Designer.cs">
       <DependentUpon>TotalServiceBadge.cs</DependentUpon>
     </Compile>
+    <Compile Include="TH2\CartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TH2\CartForm.Designer.cs">
+      <DependentUpon>CartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TH2\CustomControl\CategoryButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TH2\CustomControl\CategoryButton.Designer.cs">
+      <DependentUpon>CategoryButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TH2\CustomControl\Badge.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TH2\CustomControl\Badge.Designer.cs">
+      <DependentUpon>Badge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TH2\CustomControl\HistoryItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TH2\CustomControl\HistoryItem.Designer.cs">
+      <DependentUpon>HistoryItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TH2\CustomControl\OrderItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TH2\CustomControl\OrderItem.Designer.cs">
+      <DependentUpon>OrderItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TH2\CustomControl\ProductItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TH2\CustomControl\ProductItem.Designer.cs">
+      <DependentUpon>ProductItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TH2\OrderDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TH2\OrderDetail.Designer.cs">
+      <DependentUpon>OrderDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TH2\OrderHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TH2\OrderHistoryForm.Designer.cs">
+      <DependentUpon>OrderHistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TH2\Utilities.cs" />
+    <Compile Include="TH2\HomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TH2\HomeForm.Designer.cs">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TH2\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TH2\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TH2\Model.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -149,6 +211,36 @@
     <EmbeddedResource Include="TH1\UserControlCustom\TotalServiceBadge.resx">
       <DependentUpon>TotalServiceBadge.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TH2\CartForm.resx">
+      <DependentUpon>CartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TH2\CustomControl\CategoryButton.resx">
+      <DependentUpon>CategoryButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TH2\CustomControl\Badge.resx">
+      <DependentUpon>Badge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TH2\CustomControl\HistoryItem.resx">
+      <DependentUpon>HistoryItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TH2\CustomControl\OrderItem.resx">
+      <DependentUpon>OrderItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TH2\CustomControl\ProductItem.resx">
+      <DependentUpon>ProductItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TH2\HomeForm.resx">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TH2\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TH2\OrderDetail.resx">
+      <DependentUpon>OrderDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TH2\OrderHistoryForm.resx">
+      <DependentUpon>OrderHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -160,6 +252,9 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <None Include="TH1\data.json" />
+    <None Include="TH2\Data\delivery.json" />
+    <None Include="TH2\Data\order.json" />
+    <None Include="TH2\Data\product.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

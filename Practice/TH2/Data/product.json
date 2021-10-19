@@ -1,0 +1,156 @@
+[
+  {
+    "id": "ip1",
+    "name": "iPhone 13 Pro Max",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/230529/iphone-13-pro-max-sierra-blue-600x600.jpg",
+    "price": 50490000,
+    "brandID": 1
+  },
+  {
+    "id": "xm1",
+    "name": "Redmi Note 10 Pro",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-thumb-green-600x600.jpg",
+    "price": 12000000,
+    "brandID": 3
+  },
+  {
+    "id": "ss1",
+    "name": "Samsung Galaxy S21",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/220833/TimerThumb/samsung-galaxy-s21-(8).jpg",
+    "price": 46700000,
+    "brandID": 4
+  },
+  {
+    "id": "ip2",
+    "name": "iPhone 12 Pro",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/213032/iphone-12-pro-gold-600x600.jpg",
+    "price": 28490000,
+    "brandID": 1
+  },
+  {
+    "id": "xm2",
+    "name": "Xiaomi Mi 11 5G",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-xanhduong-600x600-600x600.jpg",
+    "price": 16990000,
+    "brandID": 3
+  },
+  {
+    "id": "ss2",
+    "name": "Samsung Galaxy A52",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/228967/samsung-galaxy-a52-8gb-256gb-thumb-black-600x600-600x600.jpg",
+    "price": 12990000,
+    "brandID": 4
+  },
+  {
+    "id": "ip3",
+    "name": "iPhone 12 Pro Max",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/213033/iphone-12-pro-max-xanh-duong-new-600x600-600x600.jpg",
+    "price": 31490000,
+    "brandID": 1
+  },
+  {
+    "id": "ip4",
+    "name": "iPhone 11 Pro Max",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/200533/iphone-11-pro-max-green-600x600.jpg",
+    "price": 13000000,
+    "brandID": 1
+  },
+  {
+    "id": "ss3",
+    "name": "Samsung Galaxy M51",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/217536/samsung-galaxy-m51-trang-new-600x600-600x600.jpg",
+    "price": 9490000,
+    "brandID": 4
+  },
+  {
+    "id": "op1",
+    "name": "OPPO F7",
+    "imgUrl": "https://bizweb.dktcdn.net/thumb/1024x1024/100/420/160/products/f7-percentage-c4-percentage-91o-percentage-cc-percentage-89.png?v=1622783677963",
+    "price": 3500000,
+    "brandID": 2
+  },
+  {
+    "id": "xm3",
+    "name": "Realme C25",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/238483/TimerThumb/realme-c25s.jpg",
+    "price": 3000000,
+    "brandID": 3
+  },
+  {
+    "id": "ip5",
+    "name": "iPhone 12 mini",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/225380/iphone-12-mini-xanh-la-15-600x600.jpg",
+    "price": 1649000,
+    "brandID": 1
+  },
+  {
+    "id": "op2",
+    "name": "OPPO Reno6 Z 5G",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/239747/oppo-reno6-z-5g-aurora-1-600x600.jpg",
+    "price": 9490000,
+    "brandID": 2
+  },
+  {
+    "id": "ip6",
+    "name": "iPhone 11",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-trang-600x600.jpg",
+    "price": 1549000,
+    "brandID": 1
+  },
+  {
+    "id": "ss4",
+    "name": "Samsung Galaxy S21",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/236128/samsung-galaxy-s21-plus-256gb-den-600x600-600x600.jpg",
+    "price": 23990000,
+    "brandID": 4
+  },
+  {
+    "id": "xm4",
+    "name": "Xiaomi Redmi Note 10",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/238306/xiaomi-redmi-note-10-5g-bac-600x600.jpg",
+    "price": 5290000,
+    "brandID": 3
+  },
+  {
+    "id": "ip7",
+    "name": "iPhone SE",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/222629/iphone-se-128gb-2020-do-600x600.jpg",
+    "price": 1249000,
+    "brandID": 1
+  },
+  {
+    "id": "op3",
+    "name": "OPPO A74",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/235653/oppo-a74-blue-9-600x600.jpg",
+    "price": 6690000,
+    "brandID": 2
+  },
+  {
+    "id": "op4",
+    "name": "OPPO A94",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/234316/oppo-a94-black-thumb-600x600-1-600x600.jpg",
+    "price": 6690000,
+    "brandID": 2
+  },
+  {
+    "id": "xm5",
+    "name": "Xiaomi Mi 10T Pro 5G",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/228136/xiaomi-mi-10t-pro-den-600x600.jpg",
+    "price": 5290000,
+    "brandID": 3
+  },
+  {
+    "id": "xm6",
+    "name": "Xiaomi 11 Lite 5G NE",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/249427/xiaomi-11-lite-5g-ne-pink-600x600.jpg",
+    "price": 5290000,
+    "brandID": 3
+  },
+  {
+    "id": "ss5",
+    "name": "Samsung Galaxy Z",
+    "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/232668/samsung-galaxy-z-fold-2-den-600x600-600x600.jpg",
+    "price": 44000000,
+    "brandID": 4
+  }
+]

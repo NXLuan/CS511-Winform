@@ -1,0 +1,27 @@
+﻿[
+  {
+    "province": "TP. Hồ Chí Minh",
+    "districts": [
+      {
+        "district": "TP. Thủ Đức",
+        "transportFee": 10000,
+        "wards": [ "Phường An Khánh", "Phường Long Phước", "Phường An Lợi Đông", "Phường An Phú" ]
+      },
+      {
+        "district": "Quận 1",
+        "transportFee": 0,
+        "wards": [ "Phường Bến Nghé", "Phường Đa Kao", "Phường Bến Thành", "Phường Nguyễn Cư Trinh" ]
+      },
+      {
+        "district": "Quận Bình Thạnh",
+        "transportFee": 5000,
+        "wards": [ "Phường 1", "Phường 2", "Phường 3", "Phường 5", "Phường 6" ]
+      },
+      {
+        "district": "Quận Bình Tân",
+        "transportFee": 15000,
+        "wards": [ "Phường An Lạc", "Phường Bình Trị Đông", "Phường Tân Tạo"]
+      }
+    ] 
+  }
+]

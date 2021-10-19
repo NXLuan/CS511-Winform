@@ -1,4 +1,5 @@
 ﻿using Practice.TH1;
+using Practice.TH2;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace Practice
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new bTaskeeForm());
+            Application.Run(MainForm.Instance);
         }
     }
 }
