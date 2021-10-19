@@ -17,7 +17,7 @@ namespace Exercise
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Buoi5.ExamForm());
+            Application.Run(new Buoi6.Game());
         }
     }
 }
