@@ -17,7 +17,7 @@ namespace Exercise
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Buoi8.Paint());
+            Application.Run(new Buoi10.ThanhToanQR());
         }
     }
 }

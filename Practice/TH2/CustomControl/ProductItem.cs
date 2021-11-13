@@ -34,7 +34,10 @@ namespace Practice.TH2.CustomControl
 
         private void pbAddToCart_Click(object sender, EventArgs e)
         {
-            CartForm.Instance.AddToCart(product);
+            if (product.quantity > 0)
+                CartForm.Instance.AddToCart(product);
+            else
+                MessageBox.Show("Sản phẩm " + product.name + " đã hết hàng", "Thông báo");
         }
     }
 }

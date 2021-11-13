@@ -4,14 +4,16 @@
     "name": "iPhone 13 Pro Max",
     "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/230529/iphone-13-pro-max-sierra-blue-600x600.jpg",
     "price": 50490000,
-    "brandID": 1
+    "brandID": 1,
+    "quantity": 4
   },
   {
     "id": "xm1",
     "name": "Redmi Note 10 Pro",
     "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-thumb-green-600x600.jpg",
     "price": 12000000,
-    "brandID": 3
+    "brandID": 3,
+    "quantity": 4
   },
   {
     "id": "ss1",
@@ -130,7 +132,8 @@
     "name": "OPPO A94",
     "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/234316/oppo-a94-black-thumb-600x600-1-600x600.jpg",
     "price": 6690000,
-    "brandID": 2
+    "brandID": 2,
+    "quantity": 4
   },
   {
     "id": "xm5",
@@ -144,13 +147,15 @@
     "name": "Xiaomi 11 Lite 5G NE",
     "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/249427/xiaomi-11-lite-5g-ne-pink-600x600.jpg",
     "price": 5290000,
-    "brandID": 3
+    "brandID": 3,
+    "quantity": 4
   },
   {
     "id": "ss5",
     "name": "Samsung Galaxy Z",
     "imgUrl": "https://cdn.tgdd.vn/Products/Images/42/232668/samsung-galaxy-z-fold-2-den-600x600-600x600.jpg",
     "price": 44000000,
-    "brandID": 4
+    "brandID": 4,
+    "quantity": 4
   }
 ]
